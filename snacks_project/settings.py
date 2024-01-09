@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     # local
     "snacks.apps.SnacksConfig",
     "snack_collections.apps.SnackCollectionsConfig",
-    "accounts.apps.AccountsConfig",
 ]
 
 MIDDLEWARE = [
