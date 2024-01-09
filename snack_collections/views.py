@@ -16,7 +16,7 @@ class SnackCollectionCreate(generics.ListCreateAPIView):
     serializer_class = SnackCollectionSerializer
 
 
-class SnackCollectionDetailed(generics.RetrieveUpdateDestroyAPIView):
+class SnackCollectionUpdate(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = (IsAuthenticated,)
     queryset = SnackCollection.objects.all()
     serializer_class = SnackCollectionSerializer
